@@ -1,7 +1,7 @@
 # Aspect Oriented Programming (AOP)
 Practice from the book "Reliable Javascript", by Spencer and Richards, 2015.
 
-This uses Jasmine v2. from CDN.
+This uses Jasmine v2 from CDN.
 The book follows a TDD methodology.
 
 ### Note:

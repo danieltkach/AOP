@@ -36,7 +36,7 @@ Aop = {
       /* 4. Call the advice function and pass it the targetInfo object. 
       This allows the advice function to access the original target 
       function and its arguments. */
-      advice(targetInfo);
+      advice.call(this, targetInfo);
     }  
 
     /* Now, when you call the modified targetFn, it will execute
